@@ -3,12 +3,9 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
-[[source]]
-url = "https://${ARTIFACTORY_USERNAME}:${ARTIFACTORY_PASSWORD}@wsdev.jfrog.io/artifactory/api/pypi/sami-python-pypi-local/simple"
-verify_ssl = true
-name = "pypi"
-
 [packages]
+Measurements_sami= "0.5"
+sami-trml2pdf = "0.1"
 sami-private-black = "1.2.3"
 [dev-packages]
 pytest = "*"
