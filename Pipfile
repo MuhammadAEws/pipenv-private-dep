@@ -9,7 +9,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-six = "*"
-Measurements_sami= "0.5"
+sami-private-black = "1.2.3"
 [dev-packages]
 pytest = "*"
