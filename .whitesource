@@ -5,6 +5,16 @@
     "projectToken": "",
     "baseBranches": []
   },
+   "hostRules": [
+    {
+      "matchHost":"https://wsdev.jfrog.io/artifactory/api/pypi/sami-python-pypi-local/simple",
+      "hostType":"pypi",
+      "userName": "muhammad",
+      "encrypted": {
+				"password": "wcBMA90FtVIhcznKAQgApNPXizRhWaYVPN0ymdxtR3jJcqO2USRCRLvR6fX7wg23gCSBwN9k6WTAst7vZKeuM/VpzJR5cMEIkPcRXKj43oVQu77wY1LxOkR65/eSoFZ6vPIqB1KcI+c6DUjM8PKfN9hhI+c8QNgK1JufyfOPJ2sofTP7UQcgvD9BGUeWqP4Tpo4xc49Gp3jkWdCbuyu19ApzKWrdFOc0ovKKgsJfMoNNX0Frp+Rw14uVmldySjpS+xDtnE1Yabm2POWsql7L0ym9Ej+toswzMp/ENlLFHN5aLOmk/C7GlBdNV83fJR2h2ywbN1knPzfkJ0lZ/MKJKfphpRX0LDmafOZ0ad2oX9JiAa4RmQpQ/cPVewy2hb/8OR5q9mf+3r/9wMkqbaY/j2qRJKWaYqKgtVv1EPPIh3KeG5imJMwDQ78KAKMu6jdFU10GQmqKAaaYkF7yXf2i4W3IsxV21OH62Rhow7EDNdG+hFA"
+			}
+    }
+  ],
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
